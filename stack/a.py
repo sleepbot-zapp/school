@@ -31,9 +31,9 @@ def display():
 
 
 x = int(input("Choose one of the below option numbers: \n 1) Add \n 2) Delete \n 3) Peek \n 4) Display"))
-stack = [[121, 234, 456], [1770, 100, 99]]
+stack = [[121, "Adventure", 456], [1770, "Comic", 99]]
 if x==1:
-    add([789, 91011, 121314])
+    add([789, "Drama", 121314])
 elif x==2:
     delete()
 elif x==3:  
