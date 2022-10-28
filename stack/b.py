@@ -1,7 +1,5 @@
-"""Create a dictionary containing names and marks as key value pairs of 6 students. Write a
-program, with separate user defined functions to perform the following operations:
-a. Push the keys (name of the student) of the dictionary into a stack, where the
-corresponding value (marks) is greater than 75.
+"""Create a dictionary containing names and marks as key value pairs of 6 students. Write a program, with separate user defined functions to perform the following operations:
+a. Push the keys (name of the student) of the dictionary into a stack, where the corresponding value (marks) is greater than 75.
 b. Pop
 c. Display the content of the stack"""
 
