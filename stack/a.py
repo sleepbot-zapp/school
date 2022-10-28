@@ -30,6 +30,7 @@ def display():
             print(*i, sep=", ")
 
 
+print("Choose one of the below option numbers: \n 1) Add \n 2) Delete \n 3) Peek \n 4) Display")
 stack = [[121, 234, 456], [1770, 100, 99]]
 add([789, 91011, 121314])
 delete()
