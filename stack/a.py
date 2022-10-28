@@ -26,8 +26,7 @@ def display():
     if not stack:
         print("Stack is empty")
     else:
-        for i in stack:
-            print(*i, sep=", ")
+        print(*stack, sep=", ")
 
 
 x = int(input("Choose one of the below option numbers: \n 1) Add \n 2) Delete \n 3) Peek \n 4) Display"))
