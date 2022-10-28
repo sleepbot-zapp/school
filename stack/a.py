@@ -30,9 +30,15 @@ def display():
             print(*i, sep=", ")
 
 
-print("Choose one of the below option numbers: \n 1) Add \n 2) Delete \n 3) Peek \n 4) Display")
+x = int(input("Choose one of the below option numbers: \n 1) Add \n 2) Delete \n 3) Peek \n 4) Display"))
 stack = [[121, 234, 456], [1770, 100, 99]]
-add([789, 91011, 121314])
-delete()
-peek()
-display()
+if x==1:
+    add([789, 91011, 121314])
+elif x==2:
+    delete()
+elif x==3:  
+    peek()
+elif x==4:
+    display()
+else:
+    print("Error in choosing option")
