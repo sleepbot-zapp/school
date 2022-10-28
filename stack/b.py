@@ -6,7 +6,7 @@ b. Pop
 c. Display the content of the stack"""
 
 
-students = {"A":40, "B":50, "C":60, "D":70, "E":80, "F":90}
+students = {"Prithi":40, "Sounak":50, "Shubham":60, "Shahanur":70, "Reshma":80, "Jyoti":90}
 stack = {}
 
 
